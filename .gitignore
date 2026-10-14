@@ -1,0 +1,37 @@
+# Локальні налаштування
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Віртуальні середовища
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Тимчасові файли
+*.log
+*.tmp
+
+# Навчені ML-моделі
+models/
